@@ -4,6 +4,25 @@ APIJSON + SpringBoot连接ClickHouse使用的Demo
 
 完成 *获取用户, 获取用户列表, 获取动态及发布者用户, 获取类似微信朋友圈的动态列表等* 功能测试
 
+获取用户
+
+![图片](https://user-images.githubusercontent.com/62465397/122654263-de42c600-d17c-11eb-880e-731038e5950e.png)
+
+获取用户列表
+
+![图片](https://user-images.githubusercontent.com/62465397/122654278-f74b7700-d17c-11eb-9bdb-5523042093c3.png)
+
+获取动态及发布者用户
+
+![图片](https://user-images.githubusercontent.com/62465397/122654397-a8eaa800-d17d-11eb-90ea-3dbc82962121.png)
+![图片](https://user-images.githubusercontent.com/62465397/122654401-b6079700-d17d-11eb-8897-0d018e40a9b7.png)
+
+获取类似微信朋友圈的动态列表等
+
+![图片](https://user-images.githubusercontent.com/62465397/122654541-c409e780-d17e-11eb-81aa-e47fbb680dd7.png)
+
+
+
 ## 安装&使用
 >JDK： 1.8+
 >
