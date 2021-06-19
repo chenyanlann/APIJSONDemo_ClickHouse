@@ -1,6 +1,6 @@
 # APIJSONDemo
 
-APIJSON + SpringBoot 初级使用的最简单 Demo
+APIJSON + SpringBoot连接ClickHouse初级使用的最简单 Demo
 
 ### 运行
 

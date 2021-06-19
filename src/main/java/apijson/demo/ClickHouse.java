@@ -23,7 +23,7 @@ public class ClickHouse {
         try {
 //            Class.forName("ru.yandex.clickhouse.ClickHouseDriver");
             Class.forName("cc.blynk.clickhouse.ClickHouseDriver");
-            connection = DriverManager.getConnection(address, "default", "123456");
+            connection = DriverManager.getConnection(address, "default", "***");
             statement = connection.createStatement();
             results = statement.executeQuery(sql);
             ResultSetMetaData rsmd = results.getMetaData();
