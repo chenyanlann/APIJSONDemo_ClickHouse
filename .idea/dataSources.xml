@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@localhost" uuid="2b2cba10-8431-4498-aefc-3a3d72ff6d2e">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="Asia/Shanghai" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="ClickHouse - @10.106.128.108" uuid="5a029124-4335-47a3-b611-7cbae94fa939">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://10.106.128.108:19878</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@124.71.139.20" uuid="f90f7048-bb45-4dff-b6ba-86f10ca8cf60">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://124.71.139.20:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@apijson.cn" uuid="21c85559-9839-45f9-b5e5-3b89c1222fde">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://apijson.cn:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@124.71.139.20 [2]" uuid="4c471607-71d6-4faa-87f8-8ccd70ca80fd">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://124.71.139.20:8123</jdbc-url>
+    </data-source>
+  </component>
+</project>

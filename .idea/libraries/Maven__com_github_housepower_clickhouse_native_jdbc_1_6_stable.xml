@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.housepower:clickhouse-native-jdbc:1.6-stable">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/housepower/clickhouse-native-jdbc/1.6-stable/clickhouse-native-jdbc-1.6-stable.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/housepower/clickhouse-native-jdbc/1.6-stable/clickhouse-native-jdbc-1.6-stable-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/housepower/clickhouse-native-jdbc/1.6-stable/clickhouse-native-jdbc-1.6-stable-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
