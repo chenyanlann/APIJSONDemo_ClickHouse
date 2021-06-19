@@ -1,6 +1,8 @@
 # APIJSONDemo
 
-APIJSON + SpringBoot连接ClickHouse使用的Demo,完成获取用户，获取用户列表，获取动态及发布者用户，获取类似微信朋友圈的动态列表等功能测试
+APIJSON + SpringBoot连接ClickHouse使用的Demo
+
+完成 *获取用户, 获取用户列表, 获取动态及发布者用户, 获取类似微信朋友圈的动态列表等* 功能测试
 
 ## 安装&使用
 >JDK： 1.8+
@@ -27,6 +29,7 @@ IntelliJ IDEA导入：
 ### 运行
 
 右键 DemoApplication > Run As > Java Application
+
 SpringBoot默认端口8090
 
 ### 测试
