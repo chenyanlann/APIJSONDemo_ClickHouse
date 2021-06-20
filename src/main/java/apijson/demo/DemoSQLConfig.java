@@ -58,14 +58,14 @@ public class DemoSQLConfig extends APIJSONSQLConfig {
 	@JSONField(serialize = false)  // 不在日志打印 账号/密码 等敏感信息
 	@Override
 	public String getDBAccount() {
-		return "default";
+		return "test";
 		//return "root";//"default";  // TODO 改成你自己的
 	}
 	
 	@JSONField(serialize = false)  // 不在日志打印 账号/密码 等敏感信息
 	@Override
 	public String getDBPassword() {
-		return "123456";  // TODO 改成你自己的，TiDB 可以当成 MySQL 使用， 默认密码为空字符串 ""
+		return "123";  // TODO 改成你自己的，TiDB 可以当成 MySQL 使用， 默认密码为空字符串 ""
 	}
 
 }
