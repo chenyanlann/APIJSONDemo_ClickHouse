@@ -16,14 +16,14 @@ public class ClickHouse {
     }
 
     public static void sqlProcess(String sql) {
-        String address = "jdbc:clickhouse://124.71.139.20:8123";
+        String address = "jdbc:clickhouse://123.56.166.144:8123";
         Connection connection = null;
         Statement statement = null;
         ResultSet results = null;
         try {
 //            Class.forName("ru.yandex.clickhouse.ClickHouseDriver");
             Class.forName("cc.blynk.clickhouse.ClickHouseDriver");
-            connection = DriverManager.getConnection(address, "default", "***");
+            connection = DriverManager.getConnection(address, "test", "123");
             statement = connection.createStatement();
             results = statement.executeQuery(sql);
             ResultSetMetaData rsmd = results.getMetaData();

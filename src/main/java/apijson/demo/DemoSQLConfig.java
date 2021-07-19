@@ -51,7 +51,7 @@ public class DemoSQLConfig extends APIJSONSQLConfig {
 	@JSONField(serialize = false)  // 不在日志打印 账号/密码 等敏感信息
 	@Override
 	public String getDBUri() {
-		return "jdbc:clickhouse://124.71.139.20:8123";
+		return "jdbc:clickhouse://123.56.166.144:8123";
 		//return "jdbc:mysql://apijson.cn:3306";//jdbc:clickhouse://10.106.128.108:19878"; // TODO 改成你自己的，TiDB 可以当成 MySQL 使用，默认端口为 4000
 	}
 	
